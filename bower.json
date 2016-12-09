@@ -1,0 +1,24 @@
+{
+  "name": "basic-sass-example",
+  "description": "A basic Sass usage",
+  "main": "index.js",
+  "authors": [
+    "Leandro Almeida"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "example"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}

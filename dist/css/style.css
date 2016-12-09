@@ -1,0 +1,44 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+body {
+  padding: 40px;
+  background: #34495e; }
+
+/* Item Cardapio */
+/* Item Cardapio Image */
+/* Item Cardapio Descricao */
+/* Component modify */
+/* Item Cardapio */
+/* Item Cardapio Image */
+/* Item Cardapio Descricao */
+/* Component modify */
+/* Item Cardapio */
+/* Item Cardapio Image */
+/* Item Cardapio Descricao */
+/* Component modify */
+.item-cardapio {
+  width: 640px;
+  height: auto;
+  background: #fff;
+  margin-bottom: 20px; }
+  .item-cardapio .item-cardapio-img {
+    float: left;
+    width: 127px;
+    height: 117px;
+    border: 1px solid #fff; }
+  .item-cardapio .item-cardapio-descricao {
+    margin-left: 127px;
+    width: 513px;
+    height: 117px;
+    background: #f1c40f;
+    border: 1px solid #fff;
+    padding-top: 5px;
+    text-align: center;
+    font-family: sans-serif; }
+  .item-cardapio.item-cardapio-light .item-cardapio-descricao {
+    background: #2ecc71; }
+  .item-cardapio.item-cardapio-calorico .item-cardapio-descricao {
+    background: #e74c3c; }

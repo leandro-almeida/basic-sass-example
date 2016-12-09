@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+@mixin cardapio-custom($name,$color) {
+  &.item-cardapio-#{$name} {
+    .item-cardapio-descricao {
+      background: $color;
+    }
+  }
+}

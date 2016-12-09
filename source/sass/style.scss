@@ -1,0 +1,12 @@
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+  background: #34495e;
+}
+
+@import "cardapio/cardapio.scss";

@@ -1,0 +1,27 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.card {
+  width      : 350px;
+  min-height : $card-min-height;
+  background : $card-bg;
+
+  .card-header {
+    height      : $card-header-height;
+    background  : $card-header-bg;
+    line-height : $card-header-line-height;
+
+    .card-title {
+      text-align  : center;
+      font-size   : $card-header-title-size;
+      font-weight : bold;
+    }
+  }
+
+  .card-body {
+    padding : 10px;
+  }
+
+    @include card-custom('primary', $card-header-primary-bg);
+    @include card-custom('danger', $card-header-danger-bg);
+}

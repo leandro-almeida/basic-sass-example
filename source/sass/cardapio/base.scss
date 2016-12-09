@@ -1,0 +1,31 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.item-cardapio {
+  width: $item-cardapio-width;
+  height: auto;
+  background : $item-cardapio-bg;
+  margin-bottom: 20px;
+
+  .item-cardapio-img {
+    float: left;
+    width: $item-cardapio-img-width;
+    height: $item-cardapio-img-height;
+    border: 1px solid #fff;
+  }
+
+  .item-cardapio-descricao {
+    margin-left: $item-cardapio-img-width;
+    width: $item-cardapio-width - $item-cardapio-img-width;
+    height: $item-cardapio-img-height;
+    background: $item-cardapio-descricao-bg;
+
+    border: 1px solid #fff;
+    padding-top: 5px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  @include cardapio-custom('light', $item-cardapio-descricao-light);
+  @include cardapio-custom('calorico', $item-cardapio-descricao-calorico);
+}
